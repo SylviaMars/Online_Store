@@ -1,0 +1,271 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+i{padding: 3px;}
+.btn:hover{background-color: transparent;}
+h4{font-family: 'Permanent Marker', cursive; }
+.sign{background:linear-gradient(45deg, #fceceb 0%,
+     #f8c5c2 25%, #f7847e 51%, #fb726a 100%); 
+     width: 200px;
+     border-radius: 18px;
+    border: none;
+    font-family: 'Permanent Marker', cursive; 
+}
+.sign a {color: white;}
+h2{font-family: 'Staatliches', cursive; }
+h6{font-family: 'Staatliches', cursive; }
+
+/*HEAD--------------------------------------------------------------*/
+
+.bg-light{
+    background-color: #fb726a !important;
+    color: aliceblue;
+    border-radius: 3px;
+}
+.bg-light a{
+    color: aliceblue !important;
+    font-family: 'Staatliches', cursive;
+}
+#categories{margin-right: 145px;}
+#logo{visibility: hidden;}
+#logoArea{text-align: center;}
+#searchArea{text-align: center; padding-left: 30px;}
+#cartArea{padding-right: 30px;}
+#signIn{color: white; visibility: hidden; float: right;}
+#head{ margin-bottom: 30px;}
+#header{margin-top: 15px; margin-bottom: 40px;}
+.box{
+   border: 1px solid black;
+   width: 170px;
+   border-radius: 17px;
+   font-family: 'Josefin Slab', serif;
+   font-size: 18px;
+}
+.btn-secondary, a{
+    color: black;
+    overflow: hidden;
+    border: none;
+    background: transparent;   
+    font-family: 18px;
+}
+i:hover{color: #fb726a;}
+input, .btn-link{
+    padding: 0;
+    color: #050505;
+    overflow: hidden;
+    border: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 120px;
+    font-family: 18px;
+}
+
+.secondIcon {padding-left: 20px;}
+.secondIcon i:hover{color: white; size: 40px;}
+
+/**-----------------Shopping Cart**/
+
+.imgcart{width: 50px;}
+.list-group-item {
+    padding: 1.75rem 0.25rem; 
+    border: none;
+    margin-bottom: 0;  
+	background-color: white;
+}
+#shopping{
+	padding: 20px 20px 20px 20px; 
+	margin: 87px 50px 0 50px;
+    font-family: 'Josefin Slab', serif;
+    color: #050505;
+    text-align: center;
+}
+
+#shopping h2{font-family: 'Permanent Marker', cursive; }
+#overlay {
+	height: 500px;;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+	right: 0;
+	background-color: white;
+    overflow-x: hidden;
+    transition: 1s;
+    border: 2px solid #fb726a;
+
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    font-size: 60px;
+}
+.overlay svg{display: block;}
+.closebtn{color:white;}
+
+/**---------------------Main Row**/
+#jumbotron{display: none;}
+.btn-circle.btn-xl {
+    margin: 10px;
+    width: 90px;
+    height: 90px;
+    padding: 10px 16px;
+    border-radius: 45px;
+    border: 1px solid #969696;
+    background-color: transparent;
+    font-size: 24px;
+    line-height: 1.33;
+}
+.btn-circle.btn-xl img{ width: 60px; height: 60px;}
+#featured{text-align: center;}
+#slider img{width: 550px;height: 230px;}
+#slider{height: 260px;}
+.slideText{
+    font-family: 'Josefin Slab', serif;
+    position: relative;
+    bottom: 230px;
+    background-color: #ffffffbf;
+    width: 250px;
+    height: 230px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.slideText h3{ font-family: 'Permanent Marker', cursive; }
+#add{ 
+    background-image: url("img/promo.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 600px;
+}
+
+#newsletter{
+    height: 80px;
+    text-align: center;
+    background-image: url("img/swatch.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    animation-name: advert;
+    animation-duration: 4s;
+}
+@keyframes advert{
+    0%   {left:300px;}
+    25%  {left:0px;}
+    50%  {left:0px;}
+    75%  {left:0px;}
+    100% {left:0px;}
+}
+#tracking{
+    background-color: #fb726a;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    font-family: 'Staatliches', cursive; 
+    color: white;
+}
+
+.dropdown-menu{display: none;background-color: #fb726a;}
+.dropdown-menu a:focus{background-color: #fb726a !important;}
+.dropdown:hover>.dropdown-menu {display: block;}
+.dropdown-item:hover{background-color: #fb726a; font-size: larger;}
+.dropdown-item a:hover{font-size: 1.5em;}
+.news .NewsText h4{font-family: 'Permanent Marker', cursive;}
+.news .NewsText p{font-family: 'Josefin Slab', serif;}
+#advert{background-image: url("img/banner.png"); background-size: 100%;}
+#banner img{width: 100%; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;}
+
+/**-------------------Footer**/
+
+footer{
+    font-family: 'Staatliches', cursive; 
+    background-image: url("img/foundations.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+footer p{font-family: 'Josefin Slab', serif;}
+
+
+/** ---------------Login Page **/
+
+.loginForm{
+    margin: 50px auto;
+    font-family: 'Josefin Slab', serif;
+    height: auto;
+}
+.loginForm h4, svg{color: #0b0c04;display: inline;}
+.loginForm .form-group{margin-top: 20px;}
+.loginForm label{font-size: 16px;}
+.loginForm #button{text-align: right;}
+.loginForm .btn{color: #ded6d6; margin-bottom: 25px; background-color: #fb726a;}
+.loginForm a{font-size: 12px;}
+.loginForm input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0px 9999px white; /** Change yellow background from Google Chrome**/
+  }
+#registerForm{display: none;}
+
+/**-------------------Category / Subcategories page **/
+.categoryTitle{
+    background-image: url(img/stroke.png);
+    height: 85px;
+    background-size: 169px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.card, .card-footer{border: none; background-color: transparent;}
+#optionsMenu{font-family: 'Staatliches', cursive;}
+#categoryIntro{background-image: url("img/blush.png"); background-repeat: no-repeat; background-size: 100px;}
+ 
+
+/**--------------- mediaqueries **/
+  @media (max-width : 990px) {
+    hr {display: none;}
+
+    /**---------- Header **/
+    #searchArea{display: none;}
+    #logoArea{margin-bottom: 20px;}
+    #cartArea .row{justify-content: center !important; margin-top: 15px;}
+    #signIn{display: none;}
+    #add {
+        background-image: url("img/add_Large.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 60px !important;
+        height: 90px;
+        padding-bottom: 0px;
+    }
+    #adddiv a{display: none;}
+    .overlay{display: none;}
+
+    /**----------- Main **/
+    #jumbotron{display: block;}
+    #jumbotron img{width: 300px;}
+    #slider {display: none;}
+    #tracking {width: 100%;}
+    #newsBox{width: 200px;}
+    #news Img{width: 200px; height: 180px;}
+    .newsText{width: 300px;}
+    .btn-circle.btn-xl{
+        margin: 10px;
+        width: 70px;
+        height: 70px;
+        padding: 0px 12px;
+        }
+            
+        .btn-circle.btn-xl img {
+            width: 45px;
+            height: 45px;
+        }
+    /**----------- Footer **/
+
+    #medialinks {font-size: 80%;}
+
+    
+
+    
+  }
